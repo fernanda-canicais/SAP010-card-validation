@@ -84,6 +84,21 @@ footer {
   margin-bottom: 50px;
   }
 
+  .card {
+    background-image: url("card.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    position: relative;
+  }
+
+  .container{
+    background-color: orangered;
+    width: 500px;
+    height: 300px;
+    position: relative;
+
+  }
 
  
 
