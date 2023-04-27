@@ -1,10 +1,9 @@
+body {
+  background-image: url(fundo.jpg);
+  background-size: cover;
+}
 
-  body {
-    background-image: url(fundo.jpg);
-    background-size: cover;
-  }
-
-.titulo{
+.titulo {
   text-align: center;
   padding: 60px;
 }
@@ -36,12 +35,12 @@ h1 {
   padding: 100;
   text-align: center;
   margin-top: 80px;
-  }
+}
 
 .menu li {
   display: inline-block;
   margin: 0 100px;
-  }
+}
 
 .menu a {
   color: white;
@@ -49,60 +48,48 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   padding: 10px;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .item {
-    margin: 30px;
-    text-align: center;
-    margin-top: 100px;    
-  }
-  
-  .item img {
-    width: 300px;
-    height: 200px;
-    border-radius: 5px;
-    
-  }
-.botao{
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  margin: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+
+}
+
+.botao {
   color: white;
   background-color: orangered;
   border-radius: 10px;
   padding: 10px 20px;
   font-size: 15px;
 }
+
 footer {
   background-color: #333;
-  color: #fff; 
-  padding: 0px; 
-  font-size: 14px;   
+  color: #fff;
+  padding: 0px;
+  font-size: 14px;
   text-align: center;
   margin-top: 300px;
   margin-bottom: 50px;
-  }
+}
 
-  .card {
-    background-image: url("card.jpg");
-    background-size: cover;
-    width: 500px;
-    height: 300px;
-    position: relative;
-  }
-
-  .container{
-    background-color: orangered;
-    width: 500px;
-    height: 300px;
-    position: relative;
-
-  }
-
- 
-
-
-
-  
-  
+.card {
+  background-image: url("card.jpg");
+  background-size: cover;
+  width: 500px;
+  height: 300px;
+  position: relative;
+}

@@ -1,48 +1,51 @@
 const validator = {
-isValid: function (cartaocredito) {
-cartaocredito = cartaocredito.raplece(/\s/g, "");
-if (!/^\d+$/.validar(cartaocredito)) {
-  return false;
-}
 
-const reversed = cartaocredito.split("").reverse().join("");
+  isValid(cartaocredito) {
+    function somaDigitos(numero) {
+      if (numero < 9) {
+        return numero;
+      }
+      else {
+        return numero % 10 + 1;
+      }
+    }
+    let somaPar = 0;
+    let somaImpar = 0;
+    let aux = 0;
 
-//Algoritimo Luhn
-//Para somar o primeiro, pular o seguinte e assim sussecivamente;
-let sum = 0;
-for (let i = 0; i <reversed.lenght; i++){
-  let digit = parseInt(reversed[i]);
+    for (let p = cartaocredito.length - 2; p >= 0; p = p - 2) {
+      aux = parseInt(cartaocredito.charAt(p) + "");
+      somaPar = somaPar + somaDigitos(aux * 2);
+    }
 
-//Para Luhn, é necessario inverter o array, o primeiro nº se torna o ultimo;
-if(i % 2!== 0){
-  digit *= 2;
-  if (digit >9){
-    digit -=9;
+    for (let i = cartaocredito.length - 1; i >= 0; i = i - 2) {
+      aux = parseInt(cartaocredito.charAt(i) + "");
+      somaImpar = somaImpar + aux;
+    }
+
+    if ((somaPar + somaImpar) % 10 === 0) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  },
+
+
+  maskify(cartaocredito) {
+
+    const quatrodig = cartaocredito.slice(-4)
+    const qtdMask = cartaocredito.lenth - 4
+    const mask = "#".repeat(qtdMask) + "#### #### #### " + quatrodig 
+    return mask
   }
 }
-sum += digit;
-}
-return sum %10 === 0;
-}
-};
 
 
-maskify function (cartaocredito) {
- 
-  if (cartaocredito.length <= 4) {
-    return cartaocredito;
-  }
 
-  const maskLength = cartaocredito.length - 4;
-  let mask = "";
-  for (let i = 0; i < maskLength; i++) {
-    mask += Math.random() < 0.5 ? "#" : "🐱";
-    //A função Math.random() retorna um número pseudo-aleatório no intervalo
-  }
-  return mask + cartaocredito.substring(maskLength);
-  //esse metodo substring extrai caracteres entre indices (posições) de uma string e retorna uma substring
-},
-;
+
+
+
 
 export default validator;
 
