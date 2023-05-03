@@ -38,7 +38,7 @@ const validator = {//iniciando a variavel do validador
 
     const quatrodig = cartaocredito.slice(-4)
     const qtdMask = cartaocredito.lenth - 4
-    const mask = "#".repeat(qtdMask) + "#### #### #### " + quatrodig 
+    const mask = "#".repeat(qtdMask) + "############ " + quatrodig 
     return mask
   }
 }

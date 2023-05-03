@@ -50,7 +50,7 @@ O projeto foi desenvolvido um web site para que o usuario/cliente final B2C onde
 
 Link projeto: 
 
-  ## 5. Ferramentas Utilizadas
+## 5. Ferramentas Utilizadas
 
   * HTML<br>
   * CSS<br>
@@ -58,8 +58,3 @@ Link projeto:
   * Miro<br>
   * Git<br>
   * Github<br>
-
-
-
-
-
