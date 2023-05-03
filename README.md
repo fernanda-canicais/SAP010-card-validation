@@ -48,7 +48,7 @@ O projeto foi desenvolvido um web site para que o usuario/cliente final B2C onde
 
   Acesse o link abaixo e confira:
 
-Link projeto: https://fernanda-canicais.github.io/SAP010-card-validation/
+Link: [Projeto Final](https://fernanda-canicais.github.io/SAP010-card-validation/)
 
 ## 5. Ferramentas Utilizadas
 
