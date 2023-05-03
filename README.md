@@ -16,7 +16,7 @@ seus dígitos finais for um múltiplo de 10.
 <br>
 <br>
 ## 2. Resumo do projeto
-O projeto foi desenvolvido um web site para que o usuario/cliente final B2C onde o site vende para o consumidor final, onde será escolhido dentre algumas opções o pacote de viagens e intuitivamente clicar no botão "comprar" o mesmo irá para a próxima tela onde irá realizar a validação do cartão de crédito.
+Para o projeto foi desenvolvido um web site para que o usuario/cliente final B2C onde o site vende para o consumidor final, onde a experiencia consiste em escolher dentre algumas opções o pacote de viagens e intuitivamente clicar no botão "comprar" o mesmo irá para a próxima tela onde irá realizar a validação do cartão de crédito.
 
 * Os principais usuarios serão clientes que buscam férias, promoções e viagens;
 
@@ -25,6 +25,7 @@ O projeto foi desenvolvido um web site para que o usuario/cliente final B2C onde
 * O site desenvolvido para o produto consiste em facilitar a escolha de uma viagem incluindo voo + hospedagem em um só lugar.
 <br>
 <br>
+
 ## 3. Desenvolvimento do projeto
 <br>
 * Primeiramente realizei o benchmarking com sites com os mesmos nichos;
@@ -48,7 +49,9 @@ O projeto foi desenvolvido um web site para que o usuario/cliente final B2C onde
 
   Acesse o link abaixo e confira:
 
-Link: [Projeto Final](https://fernanda-canicais.github.io/SAP010-card-validation/)
+[Projeto Final](https://fernanda-canicais.github.io/SAP010-card-validation/)
+
+<br>
 
 ## 5. Ferramentas Utilizadas
 
