@@ -1,0 +1,102 @@
+body {
+  background-image: url(fundo.jpg);
+  background-size: cover;
+}
+
+.titulo {
+  text-align: center;
+  padding: 60px;
+}
+
+.logo {
+  display: inline-block;
+  width: 80px;
+  height: 70px;
+  padding: 5px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  margin: 100;
+  text-align: center;
+  color: orangered;
+}
+
+.menu ul {
+  background-color: gray;
+  list-style: none;
+  margin: 100;
+  padding: 100;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 100px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  margin: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+
+}
+
+.botao {
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 0px;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
+
+.card {
+  text-align: center;
+  background-color: orangered;
+  border-radius: 10px;
+  width: 300px;
+  height: 80px;
+  margin-top: 50px;
+  padding: 50px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  color:black;  
+}
+
